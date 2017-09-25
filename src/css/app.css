@@ -1,3 +1,106 @@
-/* =========
-Your custom styles go here
- ========= */
+.add_action_popover{
+	width:200px;
+}
+.input_podhod{
+	width:100px;
+	display: inline-block;
+	margin:20px 8px;
+}
+.input_podhod_cunt{
+	margin-top:20px;
+}
+.input_podhod input, .input_podhod_cunt input{
+	width:100%;
+	height:40px;
+	border:1px solid #eee;
+	border-radius:3px;
+	font-size:16px;
+	color:#000;
+	box-sizing:border-box;
+	padding:0 10px;
+	text-align:center;
+}
+.name_category{
+	border:1px solid #eee;
+	width:100%;
+	border-radius:3px;
+	height:40px;
+	box-sizing:border-box;
+	padding:0 10px;
+	margin-top:10px;
+}
+.modal-inner .list-block{
+	margin:15px 0;
+}
+.podhod_picker{
+	height:200px;
+	width:115px;
+	display:inline-block;
+}
+.actiontrainingday{
+	width:200px;
+}
+.more_training{
+	float:right;
+	font-size:26px;
+	color:rgba(0,0,0,.54);
+}
+.picker-calendar-day.picker-calendar-day-selected span{
+	border:2px solid #2196f3;
+	background:none;
+	color:#212121;
+	box-sizing:border-box;
+}
+.picker-calendar-day.active span{
+	background:#1ad2b8;	
+	color:#fff;
+}
+.panel .icon{
+	font-size:30px;
+	line-height:30px;
+}
+.icon.target, .icon.exercise{	
+	background-repeat:no-repeat;
+	width: 30px;
+	height:30px;
+}
+.icon.target{
+	background-image:url(../assets/img/goal.svg);	
+}
+.icon.exercise{
+	background-image:url(../assets/img/dumbbell-for-training.svg);	
+}
+.picker-calendar-day-today span{
+	border-radius:50%;
+	border:1px solid #000;
+}
+.train_comment{
+	width:100%;
+	height:100px;
+	resize:none;
+}
+div[data-page="training_item"] .tab{
+	overflow-y:auto;
+}
+.target_type{
+	display:none;
+}
+.type_distance{
+	text-align:center;
+}
+.target_type {
+	display:none;
+}
+.target_type.open{
+	display:block;
+}
+.target_type .input_podhod{
+	width:45%;
+	margin:20px 0;
+}
+.target_type  .podhod_picker{
+	width:45%;
+}
+.list-block.target{
+	margin:32px 0 0 0;
+}
